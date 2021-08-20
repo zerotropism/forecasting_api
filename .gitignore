@@ -1,0 +1,11 @@
+modules/__pycache__
+.vscode
+data/outputs/*
+data/subsets.csv
+data/checks/*
+model_outputs/*
+models/*
+notebooks/*
+test/*
+plots
+plots/*

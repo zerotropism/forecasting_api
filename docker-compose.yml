@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  asphalte:
+    container_name: asphalte_forecasting_api
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8085:8085
