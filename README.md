@@ -1,5 +1,5 @@
 # Orders forecasting
-Times Series forecasting for retail orders predictions.
+Times Series diagnosis & forecasting tool for predictions.
 
 ## Diagnose
 
@@ -74,12 +74,12 @@ http://127.0.0.1:8080/apiGenForecastingResults?dataset=data/products/<datset_pat
 Lag and list of products need to be defined in file `data/subsets.csv` like:  
 | ,  | Path                           | Lag |  
 | -- |:-------------------------------|:--- |  
-| 0  | data/products/pull_parfait.csv | 10  |
-| 1  | data/products/pull_parfait.csv | 150 |
-| 2  | data/products/pull_parfait.csv | 282 | 
-| 3  | data/products/sneakers_solides.csv | 10  |
-| 4  | data/products/sneakers_solides.csv | 150 |
-| 5  | data/products/sneakers_solides.csv | 282 | 
+| 0  | data/products/store.csv | 10  |
+| 1  | data/products/store.csv | 150 |
+| 2  | data/products/store.csv | 282 | 
+| 3  | data/products/temps.csv | 10  |
+| 4  | data/products/temps.csv | 150 |
+| 5  | data/products/temps.csv | 282 | 
 <br>
 
 To train and predict on all products defined in `data/subsets.csv`, run the following command. 
